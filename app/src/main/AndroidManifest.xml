@@ -17,7 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".CreateActivity" />
-        <activity android:name=".TrackDetails"></activity>
+        <activity android:name=".TrackDetailsActivity" />
+        <activity android:name=".TrackViewActivity" />
+        <activity android:name=".EndOfTrackActivity" />
+        <activity android:name=".PremiumActivity" />
+        <activity android:name=".DestinationActivity" />
+        <activity android:name=".TracksListActivity" />
+        <activity android:name=".TrackDetailsFirstAvtivity"></activity>
     </application>
 
 </manifest>

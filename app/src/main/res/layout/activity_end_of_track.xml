@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndOfTrackActivity">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Rate this track!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/aaaa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="349dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="goToMain"
+        android:text="Done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aaaa"
+        app:layout_constraintVertical_bias="0.046">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="138dp"
+            android:layout_height="49dp"
+            android:text="Your result:"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="320dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="147dp"
+            android:layout_height="49dp"
+            android:text="2h"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aaaa"
+        android:layout_width="349dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="9dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="68dp"
+            android:layout_height="50dp"
+            android:text="1"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="68dp"
+            android:layout_height="50dp"
+            android:text="2"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="68dp"
+            android:layout_height="50dp"
+            android:text="3"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="68dp"
+            android:layout_height="50dp"
+            android:text="4"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="68dp"
+            android:layout_height="50dp"
+            android:text="5"
+            tools:layout_editor_absoluteX="317dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

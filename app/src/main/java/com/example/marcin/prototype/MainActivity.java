@@ -18,4 +18,16 @@ public class MainActivity extends AppCompatActivity {
 
         this.startActivity(intentApp);
     }
+
+    public void findExistingTrack(View v) {
+        Intent intentApp = new Intent(this, DestinationActivity.class);
+
+        this.startActivity(intentApp);
+    }
+
+    public void showPremium(View v) {
+        Intent intentApp = new Intent(this, PremiumActivity.class);
+
+        this.startActivity(intentApp);
+    }
 }
